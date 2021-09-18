@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px 0px 15px;
+}
+.navbar > img {
+  height: 60px;
+  width: 128px;
+}
+.navbar__right{
+    display: flex;
+    align-items: center;
+}
+.navbar__right > a {
+  text-decoration: none;
+}
+.navbar__right > .login {
+  margin-right: 20px;
+  font-size: large;
+  color: #05034e;
+}
+.navbar__right > .login__free {
+  display: inline-block;
+  background-color: #5856ce;
+  padding: 12px 16px;
+  border: none;
+  color: #fff;
+  font-size: large;
+}
+.middle {
+  margin-top: 40px;
+  text-align: center;
+}
+.middle > p {
+  color: #202020;
+}
+.middle__heading {
+  text-align: center;
+  color: #05034e;
+  margin-bottom: 12px;
+}
+
+.middle__button {
+  text-align: center;
+  margin-top: 20px;
+}
+.middle__button > a {
+  display: inline-block;
+  background: #5856ce;
+  color: #fff;
+  font-size: large;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.middle2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.middle2__left {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.middle2__left > img {
+  height: 50px;
+}
+.middle2__leftBox {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 20px;
+  color: #05034e;
+}
+.middle2__leftBox > p {
+  margin-top: 10px;
+}
+.card__section{
+    background: #F2F2FD;
+    margin-top: 30px;
+}
+.card__arrowLeft{
+    margin-right: 14px;
+    background: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.card__arrowLeft>img{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.card__arrowReft{
+    margin-left: 14px;
+    background: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.card__arrowReft>img{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.card__section>h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0px 0px 10px 0px;
+}
+.card__box{
+    width: 600px;
+    background: #fff;
+    padding: 20px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card__box>p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card__header{
+    display: flex;
+    justify-content: space-between;
+}
+.card__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.card__footerTitle{
+    margin-left: 14px;
+}
+.card__footerTitle>h1{
+    color: #05034e;
+    font-size: medium;
+}
